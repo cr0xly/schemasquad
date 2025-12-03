@@ -1,0 +1,220 @@
+{
+    "Provinces": [
+        {
+            "ProvinceID": 1,
+            "ProvinceName": "Ontario"
+        },
+        {
+            "ProvinceID": 2,
+            "ProvinceName": "Quebec"
+        },
+        {
+            "ProvinceID": 3,
+            "ProvinceName": "British Columbia"
+        },
+        {
+            "ProvinceID": 4,
+            "ProvinceName": "Alberta"
+        },
+        {
+            "ProvinceID": 5,
+            "ProvinceName": "Manitoba"
+        }
+    ],
+    "Projects": [
+        {
+            "ProjectID": 1,
+            "ProjectName": "Highway Expansion Phase 1",
+            "Budget": 85000000,
+            "StartDate": "2024-01-15",
+            "EstimatedCompletion": "2026-03-30",
+            "Status": "In-Progress",
+            "ProvinceID": 1
+        },
+        {
+            "ProjectID": 2,
+            "ProjectName": "New Hydro Dam Construction",
+            "Budget": 240000000,
+            "StartDate": "2023-07-01",
+            "EstimatedCompletion": "2028-12-01",
+            "Status": "Planned",
+            "ProvinceID": 2
+        },
+        {
+            "ProjectID": 3,
+            "ProjectName": "Urban Transit Upgrade",
+            "Budget": 125000000,
+            "StartDate": "2024-04-20",
+            "EstimatedCompletion": "2025-11-15",
+            "Status": "In-Progress",
+            "ProvinceID": 1
+        },
+        {
+            "ProjectID": 4,
+            "ProjectName": "Coastal Bridge Replacement",
+            "Budget": 99000000,
+            "StartDate": "2022-09-10",
+            "EstimatedCompletion": "2024-10-20",
+            "Status": "Completed",
+            "ProvinceID": 3
+        },
+        {
+            "ProjectID": 5,
+            "ProjectName": "Provincial Fiber Optic Rollout",
+            "Budget": 63000000,
+            "StartDate": "2023-02-01",
+            "EstimatedCompletion": "2025-06-01",
+            "Status": "In-Progress",
+            "ProvinceID": 4
+        },
+        {
+            "ProjectID": 6,
+            "ProjectName": "Northern Rail Line Modernization",
+            "Budget": 150000000,
+            "StartDate": "2024-05-10",
+            "EstimatedCompletion": "2027-02-28",
+            "Status": "Planned",
+            "ProvinceID": 5
+        },
+        {
+            "ProjectID": 7,
+            "ProjectName": "Quebec Smart Highway Initiative",
+            "Budget": 72000000,
+            "StartDate": "2023-11-01",
+            "EstimatedCompletion": "2026-04-15",
+            "Status": "In-Progress",
+            "ProvinceID": 2
+        },
+        {
+            "ProjectID": 8,
+            "ProjectName": "Vancouver Port Expansion",
+            "Budget": 310000000,
+            "StartDate": "2022-03-22",
+            "EstimatedCompletion": "2026-12-31",
+            "Status": "In-Progress",
+            "ProvinceID": 3
+        },
+        {
+            "ProjectID": 9,
+            "ProjectName": "Alberta Water Treatment Upgrade",
+            "Budget": 54000000,
+            "StartDate": "2024-01-01",
+            "EstimatedCompletion": "2025-08-20",
+            "Status": "Planned",
+            "ProvinceID": 4
+        },
+        {
+            "ProjectID": 10,
+            "ProjectName": "Toronto Urban Green Transit Project",
+            "Budget": 180000000,
+            "StartDate": "2023-09-15",
+            "EstimatedCompletion": "2026-06-01",
+            "Status": "In-Progress",
+            "ProvinceID": 1
+        }
+    ],
+    "Contractors": [
+        {
+            "ContractorID": 1,
+            "CompanyName": "NorthBuild Infrastructure",
+            "HQ_City": "Toronto"
+        },
+        {
+            "ContractorID": 2,
+            "CompanyName": "Pacific Engineering Group",
+            "HQ_City": "Vancouver"
+        },
+        {
+            "ContractorID": 3,
+            "CompanyName": "Prairie Constructors Ltd.",
+            "HQ_City": "Winnipeg"
+        },
+        {
+            "ContractorID": 4,
+            "CompanyName": "Atlantic Innovations",
+            "HQ_City": "Halifax"
+        },
+        {
+            "ContractorID": 5,
+            "CompanyName": "Maple Ridge Contracting",
+            "HQ_City": "Calgary"
+        },
+        {
+            "ContractorID": 6,
+            "CompanyName": "Great Northern Engineering",
+            "HQ_City": "Edmonton"
+        },
+        {
+            "ContractorID": 7,
+            "CompanyName": "Central Infrastructure Corp.",
+            "HQ_City": "Montreal"
+        },
+        {
+            "ContractorID": 8,
+            "CompanyName": "EverGreen Civil Works",
+            "HQ_City": "Victoria"
+        }
+    ],
+    "ProjectAssignments": [
+        {
+            "ProjectID": 1,
+            "ContractorID": 1
+        },
+        {
+            "ProjectID": 1,
+            "ContractorID": 3
+        },
+        {
+            "ProjectID": 2,
+            "ContractorID": 5
+        },
+        {
+            "ProjectID": 3,
+            "ContractorID": 1
+        },
+        {
+            "ProjectID": 3,
+            "ContractorID": 2
+        },
+        {
+            "ProjectID": 4,
+            "ContractorID": 2
+        },
+        {
+            "ProjectID": 5,
+            "ContractorID": 4
+        },
+        {
+            "ProjectID": 5,
+            "ContractorID": 3
+        },
+        {
+            "ProjectID": 6,
+            "ContractorID": 6
+        },
+        {
+            "ProjectID": 6,
+            "ContractorID": 1
+        },
+        {
+            "ProjectID": 7,
+            "ContractorID": 7
+        },
+        {
+            "ProjectID": 8,
+            "ContractorID": 2
+        },
+        {
+            "ProjectID": 8,
+            "ContractorID": 8
+        },
+        {
+            "ProjectID": 9,
+            "ContractorID": 6
+        },
+        {
+            "ProjectID": 10,
+            "ContractorID": 1
+        }
+    ]
+}

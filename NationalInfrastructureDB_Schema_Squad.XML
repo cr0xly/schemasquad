@@ -1,0 +1,180 @@
+<NationalInfrastructureDB>
+
+    <Provinces>
+        <Province>
+            <ProvinceID>1</ProvinceID>
+            <ProvinceName>Ontario</ProvinceName>
+        </Province>
+        <Province>
+            <ProvinceID>2</ProvinceID>
+            <ProvinceName>Quebec</ProvinceName>
+        </Province>
+        <Province>
+            <ProvinceID>3</ProvinceID>
+            <ProvinceName>British Columbia</ProvinceName>
+        </Province>
+        <Province>
+            <ProvinceID>4</ProvinceID>
+            <ProvinceName>Alberta</ProvinceName>
+        </Province>
+        <Province>
+            <ProvinceID>5</ProvinceID>
+            <ProvinceName>Manitoba</ProvinceName>
+        </Province>
+    </Provinces>
+
+    <Projects>
+        <Project>
+            <ProjectID>1</ProjectID>
+            <ProjectName>Highway Expansion Phase 1</ProjectName>
+            <Budget>85000000</Budget>
+            <StartDate>2024-01-15</StartDate>
+            <EstimatedCompletion>2026-03-30</EstimatedCompletion>
+            <Status>In-Progress</Status>
+            <ProvinceID>1</ProvinceID>
+        </Project>
+        <Project>
+            <ProjectID>2</ProjectID>
+            <ProjectName>New Hydro Dam Construction</ProjectName>
+            <Budget>240000000</Budget>
+            <StartDate>2023-07-01</StartDate>
+            <EstimatedCompletion>2028-12-01</EstimatedCompletion>
+            <Status>Planned</Status>
+            <ProvinceID>2</ProvinceID>
+        </Project>
+        <Project>
+            <ProjectID>3</ProjectID>
+            <ProjectName>Urban Transit Upgrade</ProjectName>
+            <Budget>125000000</Budget>
+            <StartDate>2024-04-20</StartDate>
+            <EstimatedCompletion>2025-11-15</EstimatedCompletion>
+            <Status>In-Progress</Status>
+            <ProvinceID>1</ProvinceID>
+        </Project>
+        <Project>
+            <ProjectID>4</ProjectID>
+            <ProjectName>Coastal Bridge Replacement</ProjectName>
+            <Budget>99000000</Budget>
+            <StartDate>2022-09-10</StartDate>
+            <EstimatedCompletion>2024-10-20</EstimatedCompletion>
+            <Status>Completed</Status>
+            <ProvinceID>3</ProvinceID>
+        </Project>
+        <Project>
+            <ProjectID>5</ProjectID>
+            <ProjectName>Provincial Fiber Optic Rollout</ProjectName>
+            <Budget>63000000</Budget>
+            <StartDate>2023-02-01</StartDate>
+            <EstimatedCompletion>2025-06-01</EstimatedCompletion>
+            <Status>In-Progress</Status>
+            <ProvinceID>4</ProvinceID>
+        </Project>
+        <Project>
+            <ProjectID>6</ProjectID>
+            <ProjectName>Northern Rail Line Modernization</ProjectName>
+            <Budget>150000000</Budget>
+            <StartDate>2024-05-10</StartDate>
+            <EstimatedCompletion>2027-02-28</EstimatedCompletion>
+            <Status>Planned</Status>
+            <ProvinceID>5</ProvinceID>
+        </Project>
+        <Project>
+            <ProjectID>7</ProjectID>
+            <ProjectName>Quebec Smart Highway Initiative</ProjectName>
+            <Budget>72000000</Budget>
+            <StartDate>2023-11-01</StartDate>
+            <EstimatedCompletion>2026-04-15</EstimatedCompletion>
+            <Status>In-Progress</Status>
+            <ProvinceID>2</ProvinceID>
+        </Project>
+        <Project>
+            <ProjectID>8</ProjectID>
+            <ProjectName>Vancouver Port Expansion</ProjectName>
+            <Budget>310000000</Budget>
+            <StartDate>2022-03-22</StartDate>
+            <EstimatedCompletion>2026-12-31</EstimatedCompletion>
+            <Status>In-Progress</Status>
+            <ProvinceID>3</ProvinceID>
+        </Project>
+        <Project>
+            <ProjectID>9</ProjectID>
+            <ProjectName>Alberta Water Treatment Upgrade</ProjectName>
+            <Budget>54000000</Budget>
+            <StartDate>2024-01-01</StartDate>
+            <EstimatedCompletion>2025-08-20</EstimatedCompletion>
+            <Status>Planned</Status>
+            <ProvinceID>4</ProvinceID>
+        </Project>
+        <Project>
+            <ProjectID>10</ProjectID>
+            <ProjectName>Toronto Urban Green Transit Project</ProjectName>
+            <Budget>180000000</Budget>
+            <StartDate>2023-09-15</StartDate>
+            <EstimatedCompletion>2026-06-01</EstimatedCompletion>
+            <Status>In-Progress</Status>
+            <ProvinceID>1</ProvinceID>
+        </Project>
+    </Projects>
+
+    <Contractors>
+        <Contractor>
+            <ContractorID>1</ContractorID>
+            <CompanyName>NorthBuild Infrastructure</CompanyName>
+            <HQ_City>Toronto</HQ_City>
+        </Contractor>
+        <Contractor>
+            <ContractorID>2</ContractorID>
+            <CompanyName>Pacific Engineering Group</CompanyName>
+            <HQ_City>Vancouver</HQ_City>
+        </Contractor>
+        <Contractor>
+            <ContractorID>3</ContractorID>
+            <CompanyName>Prairie Constructors Ltd.</CompanyName>
+            <HQ_City>Winnipeg</HQ_City>
+        </Contractor>
+        <Contractor>
+            <ContractorID>4</ContractorID>
+            <CompanyName>Atlantic Innovations</CompanyName>
+            <HQ_City>Halifax</HQ_City>
+        </Contractor>
+        <Contractor>
+            <ContractorID>5</ContractorID>
+            <CompanyName>Maple Ridge Contracting</CompanyName>
+            <HQ_City>Calgary</HQ_City>
+        </Contractor>
+        <Contractor>
+            <ContractorID>6</ContractorID>
+            <CompanyName>Great Northern Engineering</CompanyName>
+            <HQ_City>Edmonton</HQ_City>
+        </Contractor>
+        <Contractor>
+            <ContractorID>7</ContractorID>
+            <CompanyName>Central Infrastructure Corp.</CompanyName>
+            <HQ_City>Montreal</HQ_City>
+        </Contractor>
+        <Contractor>
+            <ContractorID>8</ContractorID>
+            <CompanyName>EverGreen Civil Works</CompanyName>
+            <HQ_City>Victoria</HQ_City>
+        </Contractor>
+    </Contractors>
+
+    <ProjectAssignments>
+        <Assignment><ProjectID>1</ProjectID><ContractorID>1</ContractorID></Assignment>
+        <Assignment><ProjectID>1</ProjectID><ContractorID>3</ContractorID></Assignment>
+        <Assignment><ProjectID>2</ProjectID><ContractorID>5</ContractorID></Assignment>
+        <Assignment><ProjectID>3</ProjectID><ContractorID>1</ContractorID></Assignment>
+        <Assignment><ProjectID>3</ProjectID><ContractorID>2</ContractorID></Assignment>
+        <Assignment><ProjectID>4</ProjectID><ContractorID>2</ContractorID></Assignment>
+        <Assignment><ProjectID>5</ProjectID><ContractorID>4</ContractorID></Assignment>
+        <Assignment><ProjectID>5</ProjectID><ContractorID>3</ContractorID></Assignment>
+        <Assignment><ProjectID>6</ProjectID><ContractorID>6</ContractorID></Assignment>
+        <Assignment><ProjectID>6</ProjectID><ContractorID>1</ContractorID></Assignment>
+        <Assignment><ProjectID>7</ProjectID><ContractorID>7</ContractorID></Assignment>
+        <Assignment><ProjectID>8</ProjectID><ContractorID>2</ContractorID></Assignment>
+        <Assignment><ProjectID>8</ProjectID><ContractorID>8</ContractorID></Assignment>
+        <Assignment><ProjectID>9</ProjectID><ContractorID>6</ContractorID></Assignment>
+        <Assignment><ProjectID>10</ProjectID><ContractorID>1</ContractorID></Assignment>
+    </ProjectAssignments>
+
+</NationalInfrastructureDB>
